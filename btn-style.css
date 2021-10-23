@@ -1,0 +1,45 @@
+
+/* ============================================ */
+/*          ---  Button Class  ---              */
+/* ============================================ */
+.btn {
+   border: none;
+   height: 70px;
+   width: 100%;
+   border-radius: 20px;
+   
+   font-family: "Verdana";
+   line-height: 100%;
+   font-weight: 400;
+   font-size: 150%;   
+}
+
+.green-btn {
+   background: linear-gradient(to bottom right, greenyellow, rgb(0, 170, 0));
+}
+
+.red-btn {
+   background: linear-gradient(to bottom right, pink, red);
+}
+
+.orange-btn {
+   background: linear-gradient(to top right, rgb(255, 94, 0), rgb(255, 217, 0));
+}
+
+.blue-btn {
+   background: linear-gradient(to bottom right, dodgerblue, lightskyblue);
+}
+
+.violet-btn {
+   background: linear-gradient(to bottom right, pink, rgb(185, 23, 255));
+}
+
+.btn:hover {
+   box-shadow: gray 5px 5px 8px;
+}
+
+.btn:active {
+   border-top: solid grey 5px;
+   border-left: solid grey 5px;
+   transition-duration: 0s;
+}
